@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+
+</html>
+<script>		
+// 去掉数组中重复的项
+  var arr = [3, 5, 12, 5, 3, 89, 1, 5];
+  // 定义一个空数组
+  var newArr = [];
+
+  // 使用循环遍历数组arr
+  for(var i = 0;i < arr.length;i++){
+   // 判断新数组中是否有原数组中元素 如果没有push到新数组里
+   	if(newArr.indexOf(arr[i]) == -1){
+   		console.log(i);
+    	newArr.push(arr[i])
+    	console.log(newArr);
+   	}
+  }
+
+  
+</script>
